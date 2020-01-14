@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Amiri|Kanit|Raleway');
+/* GLOBAL */
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+/* NAV section */
+.navbar-default {
+    border-color: transparent;
+    background-color: transparent; 
+}
+.navbar-default .navbar-nav > li > a {
+    color: #1a1a1a;
+    background-color: transparent;
+    text-shadow: 1px 1px 1px #5a5a5a;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #9a9a9a;
+    text-shadow: 1px 1px 2px #5a5a5a;
+}
+nav.navbar {
+    position: absolute;
+    top: 100;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* CAROUSEL section */
+.carousel {
+    margin-bottom: 0px;
+}
+.carousel-inner .item {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.main_img1 {
+    background-image: url('../img/Miata.JPG');
+}
+.main_img2 {
+    background-image: url('../img/Miata2.JPG');
+    align-content: center;
+}
+
+/* FOOTER section */
+.footer {
+    height: 125px;
+    width: 100%;
+    background-color: #fff;
+    clear: left;
+}
+
+.footer-col {
+    text-align: center;
+    float: left;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.fa-instagram {
+    font-size: 3em;
+    color: #1a1a1a;
+}
+.fa-twitter {
+    font-size: 3em;
+    color: #1a1a1a;
+}
+.footer-col p {
+    color: #1a1a1a;
+    text-shadow: 0.4px 0.4px 0.4px #0a0a0a;
+}
