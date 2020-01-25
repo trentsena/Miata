@@ -39,11 +39,14 @@ nav.navbar {
     background-position: center;
 }
 .main_img1 {
-    background-image: url('../img/Miata.JPG');
+    background-image: url('../img/Miata.JPEG');
 }
 .main_img2 {
     background-image: url('../img/Miata2.JPG');
     align-content: center;
+}
+.glyphicon {
+    color: #5a5a5a;
 }
 
 /* FOOTER section */
