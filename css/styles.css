@@ -16,12 +16,12 @@
 .navbar-default .navbar-nav > li > a {
     color: #0464ee;
     background-color: transparent;
-    text-shadow: 2px 1px 1px #5a5a5a;
+    text-shadow: 1px 1px 1px #1a1a1a;
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-    color: #9a9a9a;
-    text-shadow: 1px 1px 2px #5a5a5a;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 1px #1a1a1a;
 }
 nav.navbar {
     position: absolute;
@@ -30,9 +30,10 @@ nav.navbar {
     left: 0;
     z-index: 20;
 }
-img {
+.logo {
     height: 40px;
     width: 40px;
+    margin-left: 10px;
 }
 .navbar-toggle {
     color: #0464ee;
@@ -46,31 +47,56 @@ img {
 }
 .carousel-inner .item {
     width: 100%;
-    height: 600px;
+    height: 725px;
     background-size: cover;
     background-position: center;
 }
+.carousel-caption {
+    z-index: 10;
+    padding-bottom: 200px;
+    color: #5381f1;
+    text-shadow: 2px 2px 2px #0a0a0a;
+}
+.name {
+    font-size: 100px;
+}
 .main_img1 {
-    background-image: url('../img/Miata2.JPEG');
+    background-image: url('../img/Miata1.JPEG');
 }
 .main_img2 {
-    background-image: url('../img/Miata.JPEG');
-    align-content: center;
+    background-image: url('../img/Miata2.JPEG');
+}
+.main_img3 {
+    background-image: url('../img/Miata3.JPG');
+}
+.main_img4 {
+    background-image: url('../img/Miata4.JPG');
+}
+.main_img5 {
+    background-image: url('../img/Miata5.JPEG');
 }
 .glyphicon {
-    color: #5a5a5a;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 1px 1px #1a1a1a;
 } 
 
+/* EXTRAS section */
+
+.miata {
+    width: 100%;
+}
 
 /* FOOTER section */
 .footer {
-    height: 125px;
+    height: 95px;
     width: 100%;
-    background-color: #fff;
+    background-image: linear-gradient(#b8b8b8,#5a5a5a);
     clear: left;
+    bottom: 0;
 }
 
 .footer-col {
+    position: absolute;
     text-align: center;
     float: left;
     width: 100%;
@@ -79,13 +105,15 @@ img {
 
 .fa-instagram {
     font-size: 3em;
-    color: #1a1a1a;
+    color: #0464ee;
+    text-shadow: 0.4px 0.4px 0.4px #0a0a0a;
 }
 .fa-twitter {
     font-size: 3em;
-    color: #1a1a1a;
+    color: #0464ee;
+    text-shadow: 0.4px 0.4px 0.4px #0a0a0a;
 }
 .footer-col p {
-    color: #1a1a1a;
+    color: #0464ee;
     text-shadow: 0.4px 0.4px 0.4px #0a0a0a;
 }
