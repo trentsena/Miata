@@ -86,11 +86,11 @@ nav.navbar {
     background-image: url(../img/Miata.jpeg);
     background-size: cover;
     background-attachment: fixed;
-    background-position: center;
-    width: 100%;
 }
-.mobile (max-width: 400px) {
-    background-image: url(../img/Miata6.jpeg);
+@media screen and (max-width: 400px) {
+    #extras {
+        background-image: url(../img/Miata6.jpg);
+    }
 }
 
 /* FOOTER section */
