@@ -82,14 +82,14 @@ nav.navbar {
 
 /* EXTRAS section */
 
-@media screen and (min-width: 401px) {
+@media screen and (min-width: 1000px) {
     #extras {
         background-image: url(../img/Miata.jpeg);
         background-size: cover;
         background-attachment: fixed;
     }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 999px) {
     #extras {
         background-image: url(../img/Miata6.jpg);
     }
