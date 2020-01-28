@@ -61,19 +61,19 @@ nav.navbar {
     font-size: 100px;
 }
 .main_img1 {
-    background-image: url(../img/Miata1.JPEG);
+    background-image: url(../img/Miata1.jpeg);
 }
 .main_img2 {
-    background-image: url(../img/Miata2.JPEG);
+    background-image: url(../img/Miata2.jpeg);
 }
 .main_img3 {
-    background-image: url(../img/Miata3.JPG);
+    background-image: url(../img/Miata3.jpg);
 }
 .main_img4 {
-    background-image: url(../img/Miata4.JPG);
+    background-image: url(../img/Miata4.jpg);
 }
 .main_img5 {
-    background-image: url(../img/Miata5.JPEG);
+    background-image: url(../img/Miata5.jpeg);
 }
 .glyphicon {
     color: #e0e0e0;
