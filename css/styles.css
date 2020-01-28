@@ -24,8 +24,8 @@
     text-shadow: 1px 1px 1px #1a1a1a;
 }
 nav.navbar {
-    position: absolute;
-    top: 100;
+    position: fixed;
+    top: 0;
     right: 0;
     left: 0;
     z-index: 20;
@@ -82,8 +82,10 @@ nav.navbar {
 
 /* EXTRAS section */
 
-.miata {
-    width: 100%;
+#extras {
+    background-image: url(../img/Miata.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* FOOTER section */
