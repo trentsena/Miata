@@ -92,6 +92,7 @@ nav.navbar {
 @media screen and (max-width: 999px) {
     #extras {
         background-image: url(../img/Miata6.jpg);
+        background attachment: fixed;
     }
 }
 
