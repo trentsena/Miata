@@ -93,6 +93,7 @@ nav.navbar {
     #extras {
         background-image: url(../img/Miata6.jpg);
         background attachment: fixed;
+        background-position: center;
     }
 }
 
